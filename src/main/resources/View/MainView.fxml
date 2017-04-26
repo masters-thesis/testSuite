@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainView">
+   <children>
+      <TextField fx:id="testContainerUrl" layoutX="14.0" layoutY="52.0" prefHeight="25.0" prefWidth="317.0" promptText="Enter TestContainer URL" />
+      <TextField fx:id="testExecutorUrl" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="317.0" promptText="Enter TestExecutor URL" />
+      <ChoiceBox fx:id="testSelectorList" layoutX="14.0" layoutY="94.0" prefWidth="150.0" />
+      <Button fx:id="goButton" layoutX="15.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Go" />
+      <TextArea fx:id="resultBox" layoutX="191.0" layoutY="95.0" prefHeight="291.0" prefWidth="395.0" />
+      <ChoiceBox fx:id="platformName" layoutX="389.0" layoutY="14.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="platformVersion" layoutX="389.0" layoutY="52.0" prefWidth="150.0" />
+      <Label layoutX="546.0" layoutY="18.0" text="Platform" />
+      <Label layoutX="546.0" layoutY="57.0" text="Version" />
+      <Label layoutX="128.0" layoutY="119.0" text="Test" />
+      <TextField fx:id="executionCountField" layoutX="14.0" layoutY="164.0" prefHeight="25.0" prefWidth="68.0" promptText="Execution amount" text="1" />
+      <Label layoutX="90.0" layoutY="168.0" text="Execution amount" />
+      <CheckBox fx:id="persistFlag" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" selected="true" text="Persist" />
+      <TextField fx:id="sshUserField" layoutX="15.0" layoutY="349.0" prefHeight="25.0" prefWidth="102.0" promptText="SSH User" text="root" />
+      <Label layoutX="126.0" layoutY="353.0" text="SSH User" />
+   </children>
+</AnchorPane>
