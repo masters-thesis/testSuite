@@ -1,10 +1,10 @@
 ## Synopsis
 
 This program is used to interact with the TestExecutor, which in turn interacts with the Test Container.
-It offers the test result pretty printed in JSON, and by choice persisting the result to a local CockroachDB. 
+It offers the test result pretty printed in JSON, and by choice persisting the result to a local CockroachDB.
 The test container used in the thesis tests can be found under https://hub.docker.com/r/rkurz/test-container/.
-The source files can be found under https://gitlab.nttdata-labs.com/robin.kurz/TestContainer.
-The TestExecutor can be found under https://gitlab.nttdata-labs.com/robin.kurz/TestExecutor.
+The source files can be found under https://github.com/robinkurz/TestContainer.
+The TestExecutor can be found under https://github.com/robinkurz/TestExecutor.
 
 ## Code Example
 
@@ -33,6 +33,3 @@ The database must be called test2.
 The user root must have the privileges.
 
 Of course this is all changeable from the source code.
-
-
-
